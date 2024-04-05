@@ -1,0 +1,539 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 500;
+  font-style: normal;
+  overflow: auto;
+}
+
+
+.container-fluid {
+position: relative;
+background-color: cyan;
+/* height: 200px; */
+width: 100%;
+float: left;
+bottom: 7px;
+}
+nav.navbar.navbar-area.white-nav.nav-absolute.navbar-two.navbar-expand-lg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+
+.nav-link-active {
+text-decoration: none;
+color: black;
+/*! top: 20px; */
+position: relative;
+top: 8px;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 200px;
+}
+
+.yoniwo-web-container {
+   /* background-color: rgba(0,0,0,.15);*/
+    padding: 1px;
+    border-radius: 0 0 20px 20px;
+   position: relative;
+   top: 30px;
+   /*! overflow: visible; */
+}
+
+img.TAYO {
+    max-width: 200px;
+}
+
+ul.navbar-nav {
+    /* display: block; */
+    width: 100%;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    position: relative;
+    left: 400px;
+    top: 20px;
+    bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* word-spacing: 10px; */
+    /* line-height: 1.2; */
+}
+
+
+a.yoniwo-book {
+  position: relative;
+  left: 1000px;
+  bottom: 124px;
+  background-color: orange;
+  border-radius: 1;
+  border: 50%;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+
+.yoniwo-bar {
+    padding: 30px 0;
+    position: relative;
+    background-color: gray;
+    bottom: 39px;
+}
+
+a.yoniwo-book {
+    position: relative;
+    left: 1000px;
+    bottom: 124px;
+    background-color: orange;
+    border-radius: 1;
+    border: 50%;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.yoniwo-bar-contents {
+    background: #fff;
+    padding: 20px 20px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-box-align: center; */
+    -ms-flex-align: center;
+    align-items: center;
+    /* -webkit-box-pack: justify; */
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+h4.yoniwo-bar-header {
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.navbar-nav {
+    position: relative;
+    left: -100px;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 100px;
+}
+ul.yoniwo-list-style {
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-box-align: center; */
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+li.yoniwo-list-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--paragraph-color);
+    position: relative;
+    /* -webkit-transition: 200ms; */
+    /* transition: 200ms; */
+}
+
+li.yoniwo-list-content-item-more {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+a.yoniwo-list-link {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    position: relative;
+    right: 20px;
+}
+
+section.yoniwo-about {position: relative;top: 100px;left: 200px;/*! background-color: lightgreen; */}
+
+.yoniwo-about-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+CSS.g-6,
+.gx-6 {
+  --bs-gutter-x: 4.5rem;
+}
+.g-6,
+.gy-6 {
+  --bs-gutter-y: 4.5rem;
+}
+@media (min-width: 576px) {
+  .g-sm-6,
+  .gx-sm-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-sm-6,
+  .gy-sm-6 {
+    --bs-gutter-y: 4.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .g-md-6,
+  .gx-md-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-md-6,
+  .gy-md-6 {
+    --bs-gutter-y: 4.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .g-lg-6,
+  .gx-lg-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-lg-6,
+  .gy-lg-6 {
+    --bs-gutter-y: 4.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .g-xl-6,
+  .gx-xl-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-xl-6,
+  .gy-xl-6 {
+    --bs-gutter-y: 4.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .g-xxl-6,
+  .gx-xxl-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-xxl-6,
+  .gy-xxl-6 {
+    --bs-gutter-y: 4.5rem;
+  }
+}
+.mb-6 {
+  margin-bottom: 4.5rem !important;
+}
+.py-6 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+@media (min-width: 576px) {
+  .mb-sm-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .py-sm-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .mb-md-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .py-md-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .mb-lg-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .py-lg-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .mb-xl-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .py-xl-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .mb-xxl-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .py-xxl-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+}
+
+h2.yoniwo-about-title {
+    position: relative;
+    top: 14px;
+}
+
+.yoniwo-about-title {
+    position: relative;
+    bottom: 90px;
+}
+
+.yoniwo-stories {
+    position: relative;
+    top: 180px;
+    /* left: 200px; */
+    text-align: center;
+    background-color: lightgreen;
+}
+
+p.yoniwo-about-paragraph {
+    position: relative;
+    left: 200px;
+}
+.single-blog {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.single-blog-thumbs {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+
+img.lazyloads {
+    max-width: 100%;
+}
+
+.single-blog-thumbs-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9;
+    background-color: var(--main-color-one);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+span.date {
+    border-bottom: 1px solid #fff;
+    display: block;
+}
+
+span.month {
+    display: inline-block;
+}
+
+.single-blog-contents.mt-3 {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+span.single-blog-contents-tags-item {
+    font-size: 16px;
+    color: gray;
+    position: relative;
+}
+
+.single-blog-contents-tags.mt-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.YONIWO-blog {
+  color: black;
+  text-decoration: none;
+}
+
+footer.footer {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    bottom: 230px;
+    /* left: 100px; */
+    width: 1600px;
+    right: 30px;
+}
+
+section.bg-light.py-4.py-md-5.py-xl-8.border-top.border-light {
+    position: relative;
+    height: 300px;
+}
+
+
+.single-blog-contents-title.mt-3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+footer.footer {
+  position: relative;
+  /* overflow: hidden; */
+  float: left;
+  /*! bottom: 230px; */
+  /* left: 100px; */
+  width: 1600px;
+  right: 100px;
+  overflow: hidden;
+}
+
+section.bg-light.py-4.py-md-5.py-xl-8.border-top.border-light {
+  /* position: relative; */
+  /* height: 300px; */
+  /* overflow: hidden; */
+  /* float: left; */
+  oveflow-y: hidden;
+  /* width: 1530px; */
+  /* width: 100%; */
+  /* top: 20px; */
+  /* right: 120px; */
+}
+
+.yoniwo-ads {
+position: relative;
+bottom: 230px;
+/*! float: left; */
+/*! overflow: hidden; */
+/* background-color: red; */
+}
+
+.mt-5.pt-4.mb-4.text-center.fw-bold.h-font {
+position: relative;
+top: 5px;
+/*! bottom: 20px; */
+color: black;
+}
+.yoniwo-ads-container {
+position: relative;
+top: 100px;
+}
+.col-lg-12.text-center.mt-5 {
+position: relative;
+top: 50px;
+}
+
+.yoniwo-facilities {
+position: relative;
+left: 550px;
+top: 50px;
+}
+
+footer.bg-body-tertiary.text-center.text-lg-start {
+  position: relative;
+  top: 785px;
+  /* left: 100px; */
+  /* right: 990px; */
+  text-align: center;
+  background-color: gray;
+  height: 200px;
+  /* overflow: hidden; */
+}
+
+a.TAYO-me {
+  position: relative;
+  right: 800px;
+}
+
+a.text-body {position: relative;right: 600px;bottom: 24px;}
+
+section.yoniwo-mb {
+  position: relative;
+  display: flex;
+  right: 740px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.YONIWO-img {
+position: relative;
+height: 100px;
+}
+
+a.link-secondary.text-decoration-none {
+    position: relative;
+    right: 40px;
+}
+
+a.link-secondary.text-decoration-none-1 {
+    text-decoration: none;
+    position: relative;
+    right: 78px;
+}
+
+a.link-secondary.text-decoration-none-2 {
+    text-decoration: none;
+    position: relative;
+    right: 74PX;
+}
+
+a.link-secondary.text-decoration-none-3 {
+    text-decoration: none;
+    position: relative;
+    right: 71px;
+}
+
+a.link-secondary.text-decoration-none-4 {
+    text-decoration: none;
+    position: relative;
+    right: 52px;
+}
+
+a.link-secondary.text-decoration-none-5 {
+    text-decoration: none;
+    position: relative;
+    right: 60px;
+}
+
+a.link-secondary.text-decoration-none-a {
+    position: relative;
+    right: 70px;
+}

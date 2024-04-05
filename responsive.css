@@ -1,0 +1,96 @@
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .d2c_faq_wrapper {
+        padding: 50px 0px;
+    }
+    .d2c_faq_wrapper .d2c_title {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .accordion-button:not(.collapsed) {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-button.collapsed {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-body {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 0px;
+    }
+    .accordion-item{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .d2c_faq_wrapper {
+        padding: 50px 0px;
+    }
+    .d2c_faq_wrapper .d2c_title {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .accordion-button:not(.collapsed) {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-button.collapsed {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .accordion-body {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 0px;
+    }
+    .accordion-item{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .d2c_faq_wrapper {
+        padding: 50px 0px;
+    }
+    .d2c_faq_wrapper .d2c_title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .accordion-button:not(.collapsed) {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .accordion-button.collapsed {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .accordion-body {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 0px;
+    }
+    .accordion-item{
+        margin-bottom: 20px;
+    }
+}
+
+/* 
+    KIT Name: 10+ FAQ Section - Bootstrap Bundle
+    Product URL: hhttps://www.designtocodes.com/product/5-faq-section-faq-example-bootstrap-ui-kit/
+    Product Description: The FAQ Section kit is made of all the basic elements you need to create a stunning website, from the start.
+    Author: D2C
+    Author URI: https://www.designtocodes.com/
+*/

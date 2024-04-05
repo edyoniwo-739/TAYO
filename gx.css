@@ -1,0 +1,561 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 500;
+  font-style: normal;
+  overflow: auto;
+}
+
+.yoniwo-container {
+    position: static;
+    /* max-width: 1200px; */
+    /* padding: 0px 15px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav.navbar.navbar-area.white-nav.nav-absolute.navbar-two.navbar-expand-lg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+
+.navbar-nav {
+  position: relative;
+  left: 200px;
+}
+
+.yoniwo-web-container {
+   /* background-color: rgba(0,0,0,.15);*/
+   /* padding: 1px; */
+   border-radius: 0 0 20px 20px;
+   position: relative;
+   top: 30px;
+   /*! overflow: visible; */
+   /* overflow: visible; */
+}
+
+img.TAYO {
+    max-width: 200px;
+}
+
+ul.navbar-nav {
+    /* display: block; */
+    width: 100%;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    position: relative;
+    left: 400px;
+    top: 20px;
+    bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* word-spacing: 10px; */
+    /* line-height: 1.2; */
+}
+
+
+
+a.yoniwo-book {
+    position: relative;
+    left: 1000px;
+    bottom: 59px;
+    background-color: orange;
+    border-radius: 1;
+    border: 50%;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+    a.yoniwo-book {
+    position: relative;
+    left: 1000px;
+    bottom: 100px;
+    background-color: orange;
+    border-radius: 1;
+    border: 50%;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none
+};
+   
+
+.yoniwo-web-banners {
+    background-color: blue;
+    position: relative;
+}
+
+.yoniwo-web-banners {
+    position: relative;
+    bottom: 800px;
+    background-color: blue;
+}
+
+.yoniwo-web-banners {
+    position: relative;
+    bottom: 800px;
+    background-color: blue;
+}
+
+.yoniwo-web-banners {
+    position: relative;
+    bottom: 800px;
+    background-color: blue;
+    /*! overflow: hidden; */
+}
+
+.yoniwo-web-banner-text {
+    padding: 10px 0;
+    position: relative;
+    z-index: 5;
+}
+
+.yoniwo-web-banner-title {
+    font-size: 64px;
+    line-height: 74px;
+    margin: -12px 0 0;
+    position: relative;
+}
+
+.yoniwo-right-banner {
+    position: relative;
+    z-index: 2;
+}
+
+img.TAYO-IMG {
+    position: relative;
+    width: 500px;
+    bottom: 142px;
+    left: 130px;
+    /*! max-width: 100%; */
+    /*! height: 300px; */
+}
+
+.yoniwo-web-banner-content-reviews {
+   /* padding: 10px 20px; */
+   /* background-color: rgba(0, 0, 0, .2); */
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+}
+
+span.TAYO-Span-1 {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    /*! background-color: rgba(0, 0, 0, .2); */
+    /*! border-radius: 5px; */
+}
+
+span.TAYO-Span-2 {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    /*! background-color: rgba(0, 0, 0, .2); */
+    /*! border-radius: 5px; */
+}
+
+img.TAYO-IMG2 {
+    position: relative;
+    left: 500px;
+    bottom: 520px;
+}
+
+.yoniwo-title-span-more {
+    background-repeat: no-repeat;
+    /*! background-size: contain; */
+    /*! background-position: center; */
+    background-image: url(../images/section-shapes2.svg);
+    z-index: -1;
+    position: relative;
+    left: 10px;
+    /*! bottom: 37px; */
+    color: white;
+    top: 75px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.yoniwo-title-mores {
+    background-repeat: no-repeat;
+    /*! background-size: contain; */
+    /* background-position: center; */
+    background-image: url('../images/star-shape.svg');
+    position: relative;
+    left: 270px;
+    color: white;
+    font-size: 30px;
+    top: 3px;
+    font-weight: 700;
+}
+
+.yoniwo-banner-content-para.mt-4 {
+  color: white;
+  font-size: 29px;
+  margin: -12px 0 0;
+  position: relative;
+  left: 20px;
+  /*! font-weight: 700; */
+}
+
+
+.yoniwo-web-container-para.mt-4 {
+  color: white;
+  position: relative;
+  /*! text-align: center; */
+}
+
+.fa.fa-star {
+  color: orange;
+}
+
+
+.yoniwo-web-banner-review-paragraph {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  height: 100px;
+  position: relative;
+  /*! top: 140px; */
+}
+
+.col-lg-12.bg-white.shadow.p-4.rounded {
+  position: relative;
+  bottom: 900px;
+}
+
+.yoniwo-row {
+  position: relative;
+  bottom: 739px;
+  display: flex;
+  bottom: 840px;
+}
+
+
+.yoniwo-title-1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+.yoniwo-title-2 {
+  font-size: 16px;
+  line-height: 28px;
+  margin: -4px 0 0;
+  font-weight: 600;
+  /*! -webkit-transition: .3s; */
+  transition: .3s;
+  color: black;
+}
+.yoniwo-title-3 {
+  font-size: 16px;
+  line-height: 28px;
+  margin: -4px 0 0;
+  font-weight: 600;
+  /*! -webkit-transition: .3s; */
+  transition: .3s;
+  /*! color: rgb(18, 20, 22); */
+}
+
+
+.yoniwo-web-container-heading {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+
+.col-lg-2.mb-3.yeah {
+  position: relative;
+  bottom: 60px;
+  left: 1172px;
+}
+
+.btn.text-white.shadow-none.custom-bg {
+  background-color: green;
+  border: green;
+  /*! text-align: center; */
+  position: relative;
+  left: 400px;
+}
+
+
+.client.pt-3.pb-5 {
+  position: relative;
+  /*! top: 1400px; */
+  bottom: 700px;
+  background-color: blue;
+  /* height: 300px; */
+}
+
+div#myCarousel {
+    position: relative;
+    bottom: 599px;
+}
+
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 70px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+.carousel .carousel-item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.d2c_faq_wrapper {
+  position: relative;
+  bottom: 500px;
+  overflow: hidden;
+}
+
+
+.attraction-area.pat-50.pab-50 {
+  position: relative;
+  /*! top: 150px; */
+  bottom: 350px;
+  /* float: left; */
+  /* left: 150px; */
+  /* height: 200px; */
+  /* overflow: hidden; */
+}
+
+
+.brands {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px
+}
+
+.brands_slider_container {
+  height: 130px;
+  border: solid 1px #e8e8e8;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 97px;
+  padding-right: 97px;
+  background: #fff;
+}
+
+.brands_slider {
+  height: 100%;
+  margin-top: 50px
+}
+
+.brands_item {
+  height: 100%
+}
+
+.brands_item img {
+  max-width: 100%
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+  color: #676767
+}
+
+.brands_prev {
+  left: 40px
+}
+
+.brands_next {
+  right: 40px
+}
+
+.w-100.py-4.flex-shrink-0 {
+  position: relative;
+  /*! top: 300px; */
+  background-color: lightblue;
+  overflow: hidden;
+  bottom: 190px;
+  width: 200px;
+  width: 100px;
+  height: 400px;
+  padding: 20px;
+  float: left;
+  /* top: 200px; */
+}
+
+
+.col-lg-4.col-md-6 {
+  position: relative;
+  /*! bottom: 90px; */
+  top: 80px;
+  /* right: 800px; */
+}
+.col-lg-2.col-md-6 {
+  position: relative;
+  top: 80px;
+}
+
+footer.footer {
+    position: relative;
+    /* overflow: hidden; */
+    /* float: left; */
+    /*! bottom: 230px; */
+    /* left: 100px; */
+    width: 1600px;
+    right: 100px;
+    overflow: hidden;
+}
+
+section.bg-light.py-4.py-md-5.py-xl-8.border-top.border-light {
+    /* position: relative; */
+    /* height: 300px; */
+    /* overflow: hidden; */
+    /* float: left; */
+    oveflow-y: hidden;
+    /* width: 1530px; */
+    /* width: 100%; */
+    /* top: 20px; */
+    /* right: 120px; */
+}
+
+footer.bg-body-tertiary.text-center.text-lg-start {
+    position: relative;
+    top: 785px;
+    /* left: 100px; */
+    /* right: 990px; */
+    text-align: center;
+    background-color: gray;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+a.TAYO-me {
+    position: relative;
+    right: 800px;
+}
+
+a.text-body {position: relative;right: 600px;bottom: 24px;}
+
+section.yoniwo-mb {
+    position: relative;
+    display: flex;
+    right: 740px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
